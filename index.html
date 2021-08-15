@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my new css project</title>
+        <style>
+            #p{
+                width: 800px;
+                height: 800px;
+                background: rgb(201, 221, 19);
+                margin: auto;
+                overflow: hidden;
+                position: relative;  
+                border: 10px solid black;          }
+            .comen{
+                width: 400px;
+                height: 400px;
+                position: absolute;
+                border: 1px solid deeppink;
+              
+            }
+            .c1{
+                
+                
+                background: chartreuse;
+                border-bottom-left-radius: 400px;
+                border-top-right-radius: 400px;
+                bottom: 0px;
+                right: 0px;
+            }
+            .c2{
+                
+                background: darksalmon;
+                top: 0px;
+                right: 0px;
+                border-top-left-radius: 400px;
+                border-bottom-right-radius: 400px;
+                bottom:  0px;
+
+            }
+            .c3{
+                background: crimson;
+                bottom: 0px;
+                border-top-left-radius: 400px;
+                border-bottom-right-radius: 400px;
+               
+            }
+            .c4{
+                background: darkmagenta;
+                border-bottom-left-radius: 400px;
+                border-top-right-radius: 400px;
+
+            }
+            #p:hover .c1{
+                background: fuchsia;
+            }
+            #p:hover .c4{
+                background: gold;
+            }
+            #p:hover .c2{
+                background: rgb(105, 255, 105);
+            }
+            #p:hover .c3{
+                background: rgb(36, 19, 197);
+            }
+            
+        </style>
+    </head>
+    <body>
+
+    
+        <div id="p">
+            <div class="comen c1"></div>
+            <div class="comen c2"></div>
+            <div class="comen c3"></div>
+            <div class="comen c4"></div>
+
+        </div>
+        
+    </body>
+</html>
